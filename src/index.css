@@ -1,0 +1,747 @@
+.parentHedear {
+  left: 0px;
+  top: 0px;
+  height: 55px;
+  position: fixed;
+  background-color: #f2f2f2;
+  /* background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 100; */
+  width: 100%;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+#logo {
+  width: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 310px;
+}
+
+.parentHedear {
+  display: flex;
+  justify-content: space-between;
+}
+
+#serchebar {
+  background-color: transparent;
+  outline: none;
+  width: 200px;
+  height: 25px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+#serchebar:hover {
+  border: 0.8px solid black;
+}
+
+.searchbar {
+  margin-left: 20px;
+  margin-right: 80px;
+  margin-top: 15px;
+}
+
+.panier {
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top: 13px;
+}
+#panier {
+  text-decoration: none;
+}
+.numberofsneakers {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 23px;
+  margin-top: -37px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#panierimg {
+  width: 28px;
+}
+
+.secondparent,
+.categorie {
+  margin-left: -50px;
+  margin-top: 15px;
+}
+
+#link,
+#categorie {
+  padding-right: 10px;
+  border-right: 1px solid silver;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-right: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#link2,
+#categorie2 {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-right: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#link:hover {
+  color: gray;
+}
+#categorie:hover {
+  color: gray;
+}
+
+#categorie2:hover {
+  color: gray;
+}
+
+.container2 {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#paragraphe {
+  margin-left: 6%;
+}
+
+.first-child {
+  margin-left: 17%;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* .second-child {
+  margin-top: -40px;
+  margin-left: 50px;
+} */
+
+.buybtn {
+  margin-left: 40%;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+
+.buybtn:hover {
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
+}
+
+#btnlike {
+  margin-top: 10px;
+  margin-left: 20px;
+  background: black;
+  border: black;
+  border-radius: 50%;
+  padding: 7px;
+}
+#like:hover {
+  color: black;
+}
+/* #imghead {
+  width: 400px;
+  height: 500px;
+} */
+
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+
+.Sneak {
+  border-radius: 10px;
+  border: 0.5px solid rgb(214, 214, 214);
+  height: 550px;
+  cursor: pointer;
+  width: 350px;
+  margin-bottom: 35px;
+}
+
+.Sneak:hover {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#imgsneak {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 65%;
+}
+
+#namesnea {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 10px;
+}
+
+#price {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.sizes {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.siz {
+  background-color: white;
+  border: 0.3px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  width: 15px;
+}
+
+#btncart {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#btncart:hover {
+  background-color: black;
+}
+.footer {
+  margin-top: 95px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.login,
+.About,
+.Forget {
+  margin-top: 120px;
+}
+
+.login {
+  width: 400px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-bottom: 120px;
+}
+.Forget {
+  width: 400px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-top: 153px;
+  margin-bottom: 190px;
+}
+#H11 {
+  color: gray;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+#H11pass {
+  color: gray;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.formlogin {
+  margin-left: 20%;
+}
+
+#labellog {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#Username,
+#Password,
+#email,
+#pass1,
+#pass2 {
+  width: 250px;
+  height: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 185, 185);
+}
+#loginbtn {
+  border-radius: 10px;
+  border: 1px black;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-right: 4%;
+  margin-top: 10px;
+}
+
+#sendbtn {
+  border-radius: 10px;
+  border: 1px black;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 22%;
+  margin-right: 4%;
+  margin-top: 10px;
+}
+
+#Register {
+  border-radius: 10px;
+  border: 1px black;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-top: 15px;
+}
+
+#registerbtn {
+  border-radius: 10px;
+  border: 1px gray;
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+#loginbtn:hover {
+  background-color: gray;
+}
+
+#forgetlink {
+  margin-left: 20%;
+  text-decoration: none;
+  color: black;
+}
+
+#forgetlink:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+#checkbox {
+  cursor: pointer;
+}
+
+#Male,
+#FeMale {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 40px;
+}
+
+#sexelabel {
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+.divsneak {
+  margin-top: 80px;
+}
+
+#hsnaek {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+th {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(228, 228, 228);
+}
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.countimg {
+  width: 50px;
+}
+
+#btndelete {
+  cursor: pointer;
+  width: 120px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.countbtn {
+  width: 120px;
+}
+
+#Link {
+  text-decoration: none;
+  color: black;
+}
+.page-sneak {
+  margin-bottom: 130px;
+  margin-top: 120px;
+  display: flex;
+  margin-left: 100px;
+}
+
+#img_sneak {
+  cursor: pointer;
+  width: 350px;
+  border-radius: 10px;
+}
+#img_sneak:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease-in-out;
+}
+
+.child2 {
+  margin-left: 140px;
+}
+
+#name_h1 {
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#span_Sneak {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.div_size {
+  text-align: center;
+  width: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 0.5px solid rgb(195, 195, 195);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.div_size:hover {
+  color: white;
+  background-color: rgb(166, 166, 166);
+  cursor: pointer;
+  transition: 0.5s;
+  border: 1px solid gray;
+}
+.parentSneak {
+  margin-top: 30px;
+  display: flex;
+}
+
+#btn_ajoutpani {
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#btn_ajoutpani:hover {
+  background-color: rgba(0, 0, 0, 0.623);
+  transition: 0.5s;
+}
+
+#imginpan {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.parentpan {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.childpan2 {
+  margin-left: 40px;
+}
+#itemnom {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#itemprix {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.parentofall {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 140px;
+}
+
+.total {
+  font-size: 20px;
+  margin-right: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#totalprix {
+  margin-top: -20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.firstpart {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.btn_payer {
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}
+.btn_payer:hover {
+  background-color: rgba(0, 0, 0, 0.804);
+}
+.btn_paypal {
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-size: 23px;
+  border: none;
+  background-color: rgba(231, 231, 231, 0.753);
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}
+
+.btn_paypal:hover {
+  background-color: rgba(231, 231, 231, 0.386);
+}
+#sp1 {
+  color: rgb(0, 0, 206);
+}
+#sp2 {
+  color: rgb(0, 179, 255);
+}
+
+.codediv {
+  width: 400px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-top: 153px;
+  margin-bottom: 190px;
+}
+.son {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inputver {
+  border-radius: 15px;
+  border: 0.5px solid rgb(203, 203, 203);
+  margin-left: 10px;
+  border-radius: 2px;
+  outline: none;
+  width: 35px;
+  height: 45px;
+  font-size: large;
+  text-align: center;
+}
+.inputver:focus {
+  border: 1px solid black;
+  background-color: rgb(218, 218, 218);
+}
+
+#sendbtn2 {
+  border-radius: 10px;
+  border: 1px black;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 36%;
+  margin-right: 4%;
+  margin-top: 10px;
+}
+
+.pagenewpass {
+  width: 400px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-top: 153px;
+  margin-bottom: 190px;
+}
+
+#btndelete_all {
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-size: 23px;
+  border: none;
+  background-color: red;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}
+
+#btndelete_all:hover {
+  background-color: rgb(255, 80, 80);
+}
+.payment {
+  margin-top: 80px;
+  margin-left: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#inemail,
+#Card {
+  outline: none;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 10px;
+  font-size: 16px;
+  width: 450px;
+  padding: 5px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+#name,
+#infoCard {
+  outline: none;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 10px;
+  font-size: 16px;
+  width: 210px;
+  margin-right: 19px;
+  padding: 5px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+#Save {
+  margin-left: 263px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  color: gray;
+  background-color: rgba(231, 231, 231, 0.753);
+  width: 200px;
+  height: 45px;
+  cursor: pointer;
+}
+#Save:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.adresse {
+  padding-bottom: 30px;
+}
+
+.paimentcart,
+.order {
+  display: none;
+  margin-top: 10px;
+}
+.hrdivs {
+  border-bottom: 0.5px solid rgb(190, 190, 190);
+}
+.parentpayment {
+  width: 500px;
+}
+#spaninfo {
+  margin-left: 14px;
+  color: rgb(173, 173, 173);
+}
+#btn_ajoutfav2 {
+  cursor: pointer;
+  width: 120px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#btn_ajoutfav {
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  color: gray;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#btn_ajoutfav:hover {
+  background-color: white;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+
+#favheart {
+  font-size:20px;
+  color: "black";
+  cursor: "pointer";
+}
+/* #favheart:hover {
+  color: red;
+} */
